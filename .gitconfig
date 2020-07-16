@@ -1,0 +1,19 @@
+# This is Git's per-user configuration file.
+[user]
+  name = Jippe Holwerda
+  email = mail@jippeholwerda.nl
+
+[alias]
+  hist = log --graph --pretty=format:%Cgreen%h(%ai):%Cblue%an-%Creset%s
+  # http://megakemp.com/2016/08/25/git-undo/
+  undo = "!f() { \\\n    git reset --hard $(git rev-parse --abbrev-ref HEAD)@{${1-1}}; \\\n}; f"
+
+[core]
+  excludesfile = ~/.gitignore_global
+  autocrlf = input
+
+[merge]
+  tool = p4merge
+
+[color]
+  ui = true

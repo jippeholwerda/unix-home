@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  // "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  //   "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.smoothScrolling": true,
+  "workbench.colorTheme": "Solarized Light",
+  "workbench.fontAliasing": "auto",
+  "workbench.preferredLightColorTheme": "Solarized Light",
+  "workbench.preferredDarkColorTheme": "Solarized Dark",
+  "window.openWithoutArgumentsInNewWindow": "on",
+  "window.autoDetectColorScheme": true,
+  "window.openFilesInNewWindow": "on",
+  "workbench.startupEditor": "newUntitledFile",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+}

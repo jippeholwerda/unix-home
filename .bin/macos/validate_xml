@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+XERCES_HOME=~/Applications/xerces/
+java -classpath $XERCES_HOME/xercesImpl.jar:$XERCES_HOME/xml-apis.jar:$XERCES_HOME/xercesSamples.jar \
+  sax.Counter -v -n -np -s -f $*

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# sudo postfix reload
+MailHog

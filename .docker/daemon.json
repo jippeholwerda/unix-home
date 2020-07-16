@@ -1,0 +1,10 @@
+{
+  "experimental" : false,
+  "debug" : true,
+  "insecure-registries" : [
+    "www.docker-registry.bpbro.ictu:5000",
+    "docker-registry.isd.ictu:5000",
+    "www.docker-registry.isd.ictu:5000",
+    "www.docker-registry.brzo.ictu:5000"
+  ]
+}
