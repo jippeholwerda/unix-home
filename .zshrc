@@ -90,7 +90,6 @@ source $ZSH/oh-my-zsh.sh
 
 is_macos() {
   uname -a | grep -i darwin >/dev/null
-  echo $?
 }
 
 # User configuration
