@@ -10,7 +10,8 @@ replace_with_link() {
             echo "symlink already exists for $1"
         fi
     else
-        echo "$1 does not exist"
+        ln -s ~/.home/$1 ~/$1
+        echo "linked $1"
     fi
 }
 
