@@ -17,7 +17,7 @@ replace_with_link() {
 
 files=(
     .zshrc
-    .vscode/settings.json
+    .config/Code/User/settings.json
     .zshrc.d
     .docker/daemon.json
     .gitconfig

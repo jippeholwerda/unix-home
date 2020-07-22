@@ -15,5 +15,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  }
+  },
+  "window.zoomLevel": 1,
+  "editor.fontSize": 13
 }
