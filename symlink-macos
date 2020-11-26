@@ -17,6 +17,7 @@ replace_with_link() {
 
 files=(
     .zshrc
+    .p10k.zsh
     .vscode/settings.json
     .zshrc.d
     .docker/daemon.json
