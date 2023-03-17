@@ -87,7 +87,7 @@ plugins=(
   docker
   encode64
   httpie
-  mvn
+  kubectl
   npm
   urltools
   z

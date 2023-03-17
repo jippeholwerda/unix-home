@@ -3,4 +3,6 @@
 # source /usr/local/opt/chruby/share/chruby/chruby.sh
 # chruby ruby-2.3.1
 
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
+chruby ruby-3.1.3

@@ -17,5 +17,18 @@
 
 [color]
   ui = true
+
 [credential]
 	helper = store
+
+[http]
+	version = HTTP/1.1
+
+[pager]
+	branch = false
+
+[init]
+	defaultBranch = main
+
+[pull]
+	ff = only
